@@ -1,0 +1,495 @@
+/* Style sheet created by: Tavish S Beals, 07/19/2018 */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #335273;
+}
+
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.text {
+	text-decoration: underline;
+}
+
+/* Style to create a fluid image */
+img {
+	max-width: 100%;
+}
+
+/* Styles for Mobile Layout */
+
+/* style for container centers the page and sets the element width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center-aligns content */
+header {
+	margin-top: 0.2em;
+	background-color: #FFFFFF;
+	border-radius: 0.5em;
+	text-align: center;
+}
+
+/* Style for the nav specifies text properties */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+}
+	
+	/* Style specifies padding and margins for unordered list */
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+	
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+	background:transparent;
+	border-radius: 2em;
+	list-style-type: none;
+	padding: 0.4em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes border styles, and applies margins and padding for list items within the navigation */
+nav li a {
+	color: transparent;
+	text-decoration: none;
+}
+
+/* Style displays the mobile class */
+.mobile {
+	display: inline;
+}
+
+/* Style hides the desktop class */
+.desktop {
+	display: none;
+}
+
+/* Style for the main element specifies a block display, text properties, margins, padding, rounded corners, and border properties */
+main {
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+}
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+/* Style hides the tablet class */
+.tablet {
+	display: none;
+}
+
+/* Style rule specifies to not display the equip class */
+.equip {
+	display: none;
+}
+
+.button {
+  display: inline-block;
+  background-color: #A3BCC0;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1em;
+  padding: 5%;
+  transition: all 0.5s;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+	color: #526468;
+	font-style: italic;
+}
+
+.button:visited {
+	background-color: #885443;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0.1em 0.1em 0.1em #040A0E;
+	font-size: 300%;
+	font-family: Castellar, Roman;
+	border-radius: 1em 1em 1em 1em;
+	border-bottom: solid 0.1em #040A0E;
+	border-top: solid 0.1em #040A0E;
+	border-right: solid 0.01em #040A0E;
+	border-left: solid 0.01em #040A0E;
+	color: #FFFFFF;
+}
+
+.gallery {
+	border-radius: 1em 1em 1em 1em;
+	border-bottom: solid 0.2em #040A0E;
+	border-top: solid 0.2em #040A0E;
+	border-right: solid 0.2em #040A0E;
+	border-left: solid 0.2em #040A0E;
+}
+
+input, select, textarea {
+	display: block;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+form ul {
+	list-style-type: none;
+}
+
+label {
+	display: block;
+	color: #FFFFFF;
+}
+
+form {
+	background: -mox-linear-gradient(#5E8EBE, #A3BCC0); /* Firefox */
+	background: -o-linear-gradient(#5E8EBE, #A3BCC0); /* Opera */
+	background: -webkit-linear-gradient(#5E8EBE, #A3BCC0); /* Chrome, Safari */
+	background: linear-gradient(#5E8EBE, #A3BCC0);
+	padding: 1em;
+	border-radius: 1em 1em 1em 1em;
+	border: solid;
+}
+
+/* Style rule for paragraph with form element */
+form p {
+	color: #FFFFFF;
+	border-radius: 0;
+}
+
+form li {
+	text-align: left;
+}
+
+form ul li {
+	text-align: left;
+	display: inline-block;
+	margin-right: 1em;
+	border-radius: 0;
+	color: #FFFFFF;
+	border-radius: 0.1em 0.1em 0.1em 0.1em;
+}
+
+form ul li:hover {
+	text-shadow: 0.1em 0.1em 0.1em #526468;
+	cursor: pointer;
+}
+
+form ul {
+	padding: 0;
+}
+
+input #nutr.chkbx:hover {
+	border: solid 1em;
+}
+
+.button_image {
+  border-radius: 30em;
+  background-color: #A3BCC0;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1em;
+  padding: 5%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+	
+.button_center {
+	align-content: center;
+	text-align: center;
+	display: block;
+}
+
+h2 {
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0.1em 0.1em 0.1em #040A0E;
+	font-size: 200%;
+	font-family: Castellar, Roman;
+	color: #FFFFFF;
+	margin-top: 0;
+}
+
+/* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+
+@media only screen and (min-width: 660px) {
+	
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 18%;
+	white-space: nowrap;
+	border-radius: 0;
+	background-color: transparent;
+	margin-bottom: 1%;
+}
+
+/* Style specifies clear and top margin properties for the main element */
+main {
+	clear: left;
+	margin-top: 4em;
+	background-color: #a3bcc0;
+}
+
+/* Style specifies to hide the mobile class */
+.mobile {
+	display: none;
+}
+
+/* Style specifies to display the desktop calss */
+.desktop {
+	display: inline;
+}
+
+/* Style specifies a display, float, and padding for the equip class */
+.equip {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+/* Style specifies a display, list style position, and bottom margin for the item class */
+.items {
+	display: block;
+	list-style-position: inside;
+	margin-bottom: 5em;
+}
+
+/* Style specifies to display the tablet class */
+.tablet {
+	display: block;
+}
+
+/* Styles specifies a font weight and top margin for description list terms */
+dt {
+	font-weight: bold;
+	margin-top: 0.7em;
+}
+		
+.button {
+  display: inline-block;
+  border-radius: 30em;
+  background-color: #A3BCC0;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1em;
+  padding: 5%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+	
+.button_image {
+  border-radius: 30em;
+  background-color: #A3BCC0;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1em;
+  padding: 5%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+	
+.button_center {
+	align-content: center;
+	text-align: center;
+}
+
+body {
+	background-color: #5E8EBE;
+}
+	
+h1 {
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0.1em 0.1em 0.1em #040A0E;
+	font-size: 300%;
+	font-family: Castellar, Roman;
+	border-radius: 1em 1em 1em 1em;
+	border-bottom: solid 0.1em #040A0E;
+	border-top: solid 0.1em #040A0E;
+	border-right: solid 0.01em #040A0E;
+	border-left: solid 0.01em #040A0E;
+	color: #FFFFFF;
+}
+
+}
+
+/* Media query for desktop viewport targets screens with a minimum width of 830pxpx. */
+
+@media only screen and (min-width: 830px) {
+	
+/* Style specifies a width for container */
+#container {
+	width: 80%;
+}
+
+/* Style specifies margin and padding for the unordered list within the nav */
+nav ul {
+	margin: 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+/* Style for navigation list items specifies a border radius, border, margin, and padding */
+nav li {
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	width: 20%;
+}
+
+/* Style for navigation links specificies display and padding */
+navi li a {
+	display: inline-block;
+	padding: 0.7em;
+}
+
+/* Style rule for pseudo-classes */
+nav li a:link {
+	color: #FFFFFF;
+}
+
+nav li a:visited {
+	color: #FFFFFF;
+}
+
+nav li a:hover {
+	color: #526468;
+	font-style: italic;
+}
+ 
+/* Style specifies border, shadow, margin, and padding for main elements */
+main {
+	border-radius: 1em 1em 1em 1em;
+	background: -mox-linear-gradient(#5E8EBE, #A3BCC0); /* Firefox */
+	background: -o-linear-gradient(#5E8EBE, #A3BCC0); /* Opera */
+	background: -webkit-linear-gradient(#5E8EBE, #A3BCC0); /* Chrome, Safari */
+	background: linear-gradient(#5E8EBE, #A3BCC0);
+	border-bottom: solid 0.2em #040A0E;
+	border-top: solid 0.2em #040A0E;
+	overflow: auto;
+}
+
+/* Style specifies left and right padding for paragraph elements within the main elements */
+main p {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	color: #ffffEE;
+}
+
+/* Style specifies a bottom margin for the item class */
+.items {
+	margin-bottom: 6em;
+}
+
+/* Style specifies a gradient for the body element */
+body {
+	background: -mox-linear-gradient(#335273, #5E8EBE, #A3BCC0); /* Firefox */
+	background: -o-linear-gradient(#335273, #5E8EBE, #A3BCC0); /* Opera */
+	background: -webkit-linear-gradient(#335273, #5E8EBE, #A3BCC0); /* Chrome, Safari */
+	background: linear-gradient(#335273, #5E8EBE, #A3BCC0);
+	background-attachment: fixed;
+}
+	
+.button {
+  display: inline-block;
+  background: #040A0E;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1em;
+  padding: 5%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20%;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25%;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+}.flt-rgt {
+	float: right;
+	margin-left: 1em;
+	width: 40%;
+	text-align: right;
+}
+.image_main {
+	width: 50%;
+	height: 50%;
+	margin-bottom: auto;
+	margin-right: auto;
+}
+.center {
+	margin-right: auto;
+	margin-left: auto;
+	width: 40%;
+	display: block;
+
+}
+.article {
+	border-radius: 1em 1em 1em 1em;
+	background-color: #040A0E;
+}
+.h3 {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Castellar, Roman;
+	font-size: 1.5em;
+}
+.news {
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}

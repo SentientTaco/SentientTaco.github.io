@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Tavish S. Beals -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Mountain Arts</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<div id="container">
+	
+	<!-- Use the header area for the website name or logo -->
+	<header>
+		<a href="index.html"><img src="images/logo_banner.png" alt="Mountain Arts Logo"></a>
+	</header>
+	
+	<!-- Use the nav area to add hyperlinks to other pages within the website -->
+	<nav>
+		<ul>
+			<li><a href="index.html"><button class="button" style="vertical-align:middle"><span>Home</span></button></a></li>
+			<li><a href="news.html"><button class="button" style="vertical-align:middle"><span>News</span></button></a></li>
+			<li><a href="gallery.html"><button class="button" style="vertical-align:middle"><span>Gallery</span></button></a></li>
+			<li><a href="about.html"><button class="button" style="vertical-align:middle"><span>About</span></button></a></li>
+			<li><a href="contact.html"><button class="button" style="vertical-align:middle"><span>Contact</span></button></a></li>
+		</ul>
+	</nav>
+		
+	<!-- Use the main area to add the main content of the webpage -->
+	<main>
+		<form><!-- Start Form -->
+			<label for="fName">First Name:</label>
+			<input type="text" name="fName" id="fName">
+			
+			<label for="lName">Last Name:</label>
+			<input type="text" name="lName" id="lName">
+			
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email">
+			
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone">
+			<br>
+		  <p>I would like more information about:</p>
+			<ul class="box">
+				<li><input type="checkbox" name="grpfit" id="grpfit" value="grpfit" class="chkbx">Prodjects</li>
+				<li><input type="checkbox" name="prtrain" id="prtrain" value="prtrain" class="chkbx">Photo Prices</li>
+				<li><input type="checkbox" name="nutr" id="nutr" value="nutr" class="chkbx">Updates</li>
+			</ul>
+			<br>
+			<label for="questions">Questions?</label>
+			<textarea id="questions" name="questions" rows="3" cols="25"></textarea>
+			
+			<input type="submit" id="submit" value="Submit" class="btn">
+			<input type="reset" id="reset" value="Reset Form" class="btn">
+			<h4><a href="mailto:toxicbonfire@gmail.com">toxicbonfire@gmail.com</a></h4>
+		</form>
+	</main>
+	
+	<!-- Use the footer area to add webpage footer content -->
+	<footer>
+		&copy; Copyright 2018, Tavish S. Beals. All Rights Reserved.<br>
+		<a href="mailto:t.stevensbeals@gmail.com">t.stevensbeals@gmail.com</a>
+	</footer>
+	
+	</div>
+	
+</body>
+</html>

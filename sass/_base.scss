@@ -1,0 +1,45 @@
+/* Scss Document */
+header {
+	text-align: center;
+	padding: 20px 10px;
+	background: url(../images/fern.png), url(../images/stripe.png);
+	background-repeat: no-repeat, repeat-x;
+	background-size: auto 80%, auto auto;
+	background-position: 47% center, left top;
+	background-color: $logogreen;
+	border-top: solid 4px #FD5;
+	border-bottom: solid 4px #FD5;
+
+
+	h2 {
+		font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+		font-size: 300%;
+		color: $lightgreen;
+		text-shadow: 0px 5px 5px rgba(0,0,0,.5);
+		line-height: 1.1;
+		margin: 15px 0 10px 0;
+	}
+
+	p {
+		color: #FFF;
+		text-transform: uppercase;
+		letter-spacing: .5em;
+		line-height: 1.1;
+		margin: 10px 0 0 0;
+	}
+}
+#wrapper {	
+	footer {
+		clear: both;
+		margin: 10px 0;
+		background: $logogreen;
+		color: #FFC;
+		padding: 15px 20px;
+	}
+	h1, h2, h3, h4, h5, h6, p {
+		padding-left: 10px /1100px * 100%;
+		padding-right: 10px /1100px * 100%;
+
+	}
+
+}
